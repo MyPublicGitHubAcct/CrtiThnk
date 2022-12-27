@@ -1,0 +1,319 @@
+/**
+ * workbook3e.css
+ *
+ * Styles for the companion Web site to
+ * Workbook for Arguments, 3rd edition,
+ * by David R. Morrow and Anthony Weston.
+ *
+ *******************************************/
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.5em;
+  font-size: 200%;
+}
+
+h1, h2 {
+  /* font-family: "Titillium Web", sans-serif; */
+  margin: 0 0 0.5em 0;
+}
+
+a {
+  color: #056666;
+}
+
+a:active {
+  color: #2fa3a4;
+}
+
+/* Header styles */
+
+header {
+  background-image: url("https://live.staticflickr.com/6093/6245707871_4221478386_c_d.jpg"); /* url("http://farm4.static.flickr.com/3216/2297466209_462796fe5d_o.jpg"); */
+  background-position: -50px -50px;
+  background-repeat: no-repeat;
+  height: 450px;
+  color: white;
+  margin: 0;
+  padding-top: 0.5em;
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+header h1, h2 {
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #ccc;
+  text-shadow: 2px 2px #333;
+  font-weight: bolder;
+}
+
+header h1 {
+  margin-top: 0.5em;
+  font-size: 250%;
+  position: relative;
+}
+header h1 > span {
+  font-size: 50%;
+}
+header h1 > span:first-child {
+  display: none;
+}
+header h1 > span:last-child {
+  display: block;
+  margin: 0.5em 0;
+}
+
+header h2 {
+  text-transform: uppercase;
+  font-size: 133%;
+}
+
+header a {
+  color: white;
+}
+
+img#book-cover-image {
+  display: none;
+  float: left;
+  margin: 0.5em;
+  height: 8.25em;
+  border: 1px solid #38799a;
+}
+
+/* Main body Styles */
+
+div#main-links {
+  clear: both;
+  width: 100%;
+}
+
+div#main-links > ul {
+  padding: 0;
+  margin: 1em;
+}
+
+div#main-links > ul > li {
+  width: 99%;
+  list-style-type: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  border-bottom: 1px #333 solid;
+  clear: left;
+}
+
+
+div#main-links > ul > li > a {
+  text-transform: uppercase;
+  color: #333;
+  width: 100%;
+  display: block;
+  margin-left: 0em;
+  padding: 0.25em;
+  text-decoration: none;
+  position: relative;
+}
+
+div#main-links > ul > li:hover {
+
+}
+
+div#main-links > ul > li > a:hover {
+  background-color: #38799a;
+  color: white;
+}
+
+div#main-links span.loading {
+  font-style: italic;
+  color: #999;
+}
+
+div#main-links > ul > li > a.close-link {
+   text-align: right;
+   font-size: 80%;
+   text-transform: uppercase;
+   cursor: pointer;
+   color: #056666;
+}
+
+div#main-links > ul > li > a.close-link:hover {
+  background-color: white;
+  color: #056666;
+}
+
+div.interior-page-wrapper {
+  max-width: 35em;
+  margin: 0 auto;
+}
+
+div#book-cover {
+  display: none;
+}
+
+/** Twitter timeline styles **/
+div#tweets {
+  margin: 1em;
+}
+
+div#tweets > p {
+  padding: 0em;
+}
+
+p.prefatory {
+  margin-top: 1em;
+  font-style: italic;
+}
+
+.return-link {
+  clear: both;
+  display: block;
+  max-width: 28em;
+  margin: 2em auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/** footer styles **/
+
+footer {
+  width: 75%;
+  margin: 0.5em auto;
+  text-align: center;
+  font-size: 80%;
+  border-top: 1px #333 solid;
+}
+
+footer > p {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+/** Wikipedia Activities page **/
+
+div.wikipedia-activities h4 {
+  clear: both;
+  width: 100%;
+  background-color: #dedede;
+  padding: 0.125em;
+  margin: 2em 0 0.5em;
+  font-size: 1.125em;
+}
+
+
+/** responsive CSS **/
+
+@media (min-width: 600px) {
+
+  header {
+    background-position: 0;
+  }
+
+  div#main-links > ul > li:first-child {
+    height: 8em;
+  }
+
+  p {
+    max-width: 35em;
+  }
+
+  img#book-cover-image {
+    display: block;
+    height: 6em;
+    float: left;
+    margin: 0 0.5em 0 0;
+    border: 1px #333 solid;
+    box-shadow: 2px 2px 2px #ccc;
+  }
+
+  div#tweets {
+    width: 480px;
+    margin: 1em auto;
+  }
+}
+
+@media (min-width: 1024px) {
+
+  body {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header {
+    border: 1px #333 solid;
+    background-size: cover;
+    background-position: 0 -175px;
+  }
+
+  header, footer {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+  }
+
+  header h1, header h2 {
+    text-align: left;
+    margin-left: 50px;
+  }
+  header h1 > span:first-child,
+  header h1 > span:last-child {
+    display: inline;
+  }
+
+  div#main-links {
+    float: left;
+    max-width: 700px;
+    border-right: 1px #ccc solid;
+  }
+
+  div#main-links > ul > li:first-child {
+    height: 7em;
+  }
+
+
+
+  div#book-cover, div#tweets {
+    float: right;
+    clear: right;
+    max-width: 300px;
+  }
+
+  div#book-cover {
+    display: block;
+    width: 100%;
+    margin: 1em 0;
+    border-bottom: 1px #ccc solid;
+    font-size: 80%;
+    text-align: center;
+  }
+
+  img#book-cover-image {
+    width: 8em;
+    height: auto;
+    margin: 0.5em 5.25em;
+  }
+
+  div#book-cover > p {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  div#tweets p {
+    font-size: 80%;
+    text-align: right;
+  }
+
+  footer {
+    width: 100%;
+    border-color: #ccc;
+  }
+
+
+}

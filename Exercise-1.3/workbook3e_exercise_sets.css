@@ -1,0 +1,139 @@
+/** Exercise Set pages **/
+
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web&display=swap');
+
+header.exercise-set {
+  height: 13em;
+  background-image: url("https://live.staticflickr.com/1008/1423312308_3eb1011d84_k_d.jpg");
+  background-position: -500px -750px; /* full width: 0 -362px; */
+}
+
+div#page-content,
+div.model-responses {
+  width: 90%;
+  max-width: 800px;
+  margin: 0.5em auto;
+  font-size: 100%;
+}
+
+div#page-content > h3 > hr {
+  margin: 0.25em auto;
+}
+
+/** Sample Exercises **/
+
+div.sample-exercise {
+  background-color: #ccc;
+  padding: 0.25em;
+  overflow-x: hidden;
+}
+
+div.sample-exercise h4 {
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+}
+
+div.sample-exercise img {
+  max-width: 100%;
+  height: auto;
+  border: 1px #333 solid;
+  display: block;
+  margin: 0 auto;
+}
+
+div.sample-exercise iframe {
+  display: block;
+  margin: 0em auto;
+}
+
+div.exercise-source-caption {
+  float: right;
+  font-size: 67%;
+  font-style: italic;
+  line-height: 1.25em;
+  margin: 0.5em 0 1em 0;
+  text-align: right;
+}
+
+div.model-response-student {
+  font-family: "Gochi Hand", serif;
+  font-size: 100%;
+  clear: both;
+  margin: 1em 0;
+}
+
+/** Exercises **/
+ol.exercise_set_exercises {
+  width: 98%;
+  margin: 1em auto;
+  padding: 0;
+}
+
+ol.exercise_set_exercises  li {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+  ol.exercise_set_exercises li div.exercise-number {
+    clear: both;
+    width: 100%;
+    background-color: #dedede;
+    padding-left: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+
+ol.exercise_set_exercises li img {
+  max-width: 100%;
+  padding: 0;
+  margin: 0.25em auto;
+  display: block;
+}
+
+ol.exercise_set_exercises li > iframe {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/** Model response styles **/
+
+div.model-responses {
+  width: 90%;
+  margin: 1em auto;
+  clear: both;
+}
+
+div.model-responses h4 {
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  font-weight: bold;
+  margin: 3em auto 1.5em auto;
+}
+
+div.model-responses h5 {
+  font-size: 100%;
+  background-color: #dedede;
+  padding-left: 0.5em
+}
+
+p.model-response-commentary {
+  font-style: italic;
+}
+
+@media (min-width: 1024px) {
+
+  header.exercise-set {
+    background-position: 0px -375px;
+  }
+
+  ol.exercise_set_exercises li > iframe {
+    width: 640px;
+    height: 480px;
+  }
+}
