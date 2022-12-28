@@ -1,4 +1,4 @@
-# 01-Exercises
+# Book Notes
 
 ---
 
@@ -142,11 +142,39 @@ The common way to ensure that a __sample__ is representative of a group is to us
 
 ### Rule 9: _Background rates may be crucial_
 
-?
+To evaluate the reliability of an argument featuring a few dramatic examples (ex: a horoscope that came true), we need to know the _ratio_ between the number of 'hits' and the number of tries. It is often good to consider background rates even when the argument does not obviously invoke any generalizations.
+
+---
+
+### Rule 10: _Statistics need a critical eye_
+
+When statistics are included in arguments, they need to be evaluated for meaning & accuracy as they can be used to mislead. How the statistics were arrived to may change their impact or usefulness in context. For example, pollsters can choose to ask questions in a certain way to arrive at a certain statistical outcome. 
+
+---
+
+### Rule 11: _Consider counterexamples_
+
+Counterexamples are examples that contradict your generalization. They can be used to make your conclusion more specific, and therefore more convincing, accurate, and useful. Additionally, considering counterexamples when assessing the arguments of others can enable you to identify faulty conclusions.
+
+The questions in the intro for this chapter above (under Chapter 2: Generalizations) are very helpful here. For example, if the generalization is about a bird, the counterexample must be a bird as well.
 
 ---
 
 ## Chapter 3: Arguments by Analogy
+
+Arguing by analogy is done by comparing examples to show they are alike in some specific, relevant way that supports a generalization. The example given is comparing the human body to cars in that they both require periodic checkups to detect potential problems.
+
+---
+
+### Rule 12: _Analogies require relevantly similar examples_
+
+In the argument below, the Earth and a house considered to be similar and relevant to the argument.
+
+- Beautiful and well-built houses must have "makers": designers and builders.
+- The world is _like_ a beautiful and well-built house.
+- Therefore, the world also must have a "maker": a designer and builder, God.
+
+---
 
 ## Chapter 4: Sources
 
