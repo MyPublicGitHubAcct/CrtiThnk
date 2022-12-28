@@ -168,7 +168,7 @@ Arguing by analogy is done by comparing examples to show they are alike in some 
 
 ### Rule 12: _Analogies require relevantly similar examples_
 
-In the argument below, the Earth and a house considered to be similar and relevant to the argument.
+For the argument below to be successful, Earth and a house must be considered to be _similar enough in context by all parties_. The reason it may or may not work for certain individuals is the extent of knowledge had about the Earth is significantly less than what is known about a house.
 
 - Beautiful and well-built houses must have "makers": designers and builders.
 - The world is _like_ a beautiful and well-built house.
@@ -178,7 +178,58 @@ In the argument below, the Earth and a house considered to be similar and releva
 
 ## Chapter 4: Sources
 
+No one can be an expert through direct experience on everything. Instead, we must rely on others who are better able to provide what we need to know about specific topics. Using an expert's point of view is not perfect, however. Everyone has biases, and experts can be overconfident. So, describing why expert is reliable is also important.
+
+### Rule 13: _Cite your sources_
+
+Especially when making a claim that is not widely accepted, the source of a premise is needed. Making bold claims without a reputable source will not help convince many people that your conclusion is correct.
+
+---
+
+### Rule 14: _Seek informed sources_
+
+A source's qualifications matter. Sources who do not have apparent expertise in the field of interest are not likely to be taken seriously. Honda mechanics are likely to be considered reliable when speaking about fixing Honda cars but not when expressing ideas about vitamins.
+
+Typically, one will want to find a representative sample of authorities to use where possible.
+
+Also, truly informed sources rarely expect others to accept their conclusions simply because they assert them. Most good sources will offer at least some reasons or evidence to explain their conclusions.
+
+---
+
+### Rule 15: _Seek impartial sources_
+
+People who have the most at stake in a dispute are usually not the best sources of information about the issues involved. The truth as one honestly sees it can still be biased. Also, be wary of personal bias or potential gain that can color the information provided by sources.
+
+---
+
+### Rule 16: _Cross-check sources_
+
+Consult and compare a variety of sources to see of other, equally good authorities agree.  Where even the experts disagree, reserve judgement. Instead, see if you can argue on other grounds.
+
+When using multiple sources, it is important that they are _independent_ of each other.
+
+---
+
+### Rule 17: _Use the Web with care_
+
+Only rely on Web sources if they are identifiable and independently reputable sources. Search engines only index about 10 to 20 percent of the available Web due to how crawling is done. This leads search engines to supply results showing primarily things that have been marketed. Most commonly, results that are useful are academic resources and databases. If you really need to know something, dig deeper than a standard Web search.
+
+Consider:
+- Who created this site?
+- Why did they create it?
+- What are their qualifications?
+- What does it mean if they don't tell you?
+- How can you double-check and cross-check its claims?
+
+---
+
 ## Chapter 5: Arguments about Causes
+
+words
+
+### Rule 18: _?_
+
+?
 
 ## Chapter 6: Deductive Arguments
 
