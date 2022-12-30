@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>README</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+  body {
+    padding: 2cm; 
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+<h1 id="toc_0">Book Notes</h1>
+
+<p>Notes for <strong>Part</strong> 1 of <em>A Workbook for Arguments: A Complete Course in Critical Thinking</em>, 2nd edition by David R. Morrow and Anthony Weston.  Answers for these exercises are in <strong>Part 2</strong> of the text.</p>
+
+<p>The webpage for this book (currently 3rd addition) can be found <a href="https://hackettpublishing.com/workbookforarguments/">here</a>.</p>
+
+<hr>
+
+<h2 id="toc_1">Chapter 1: Short Arguments: Some General Rules</h2>
+
+<p>Arguments begin by marshaling reasons and organizing them in a clear and fair way.</p>
+
+<hr>
+
+<h3 id="toc_2">Rule 1: <em>Identify Premises and Conclusion</em></h3>
+
+<ul>
+<li>Start by considering, <em>What conclusion am I trying to prove?</em></li>
+</ul>
+
+<p>The statements that give your reasons are your <em>premises</em>.</p>
+
+<p>In Churchill&#39;s statement below, the second sentence is his premise for believing the first sentence is true.</p>
+
+<div><pre><code class="language-none">&quot;I am an optimist. It does not seem to be much use being anything else.&quot;</code></pre></div>
+
+<h4 id="toc_3">Strategy 1: Consider</h4>
+
+<ul>
+<li>What <em>thing</em> the person making the argument is trying to convince you to believe. This is probably the conclusion.</li>
+<li>What <em>reasons</em> the person making the argument is giving in an effort to convince you. Those are likely the argument&#39;s premises.</li>
+</ul>
+
+<h4 id="toc_4">Strategy 2: Look for indicator words</h4>
+
+<p>Though not always used, certain types of words(or phrases) may help one determine what is being communicated. Words have more than one meaning, so try Strategy 1 first.
+- <strong>Conclusion</strong> indicator words are like <em>therefore, thus, so, consequently, etc</em>.
+- <strong>Premise</strong> indicator words are like <em>because, since, given that, this follows from, etc</em>.</p>
+
+<p>Indicators point to the conclusion or premises but are not part of them.  For example, in <code>Hence, something is true</code>, the word &quot;Hence&quot; is pointing to a conclusion but is not part of it.</p>
+
+<p>An <em>explanation</em> differs from an <em>argument</em> in that an <em>argument</em> give you a reason to think that something is true, whereas an explanation merely helps you understand why or how something is true.</p>
+
+<hr>
+
+<h3 id="toc_5">Rule 2: <em>Develop your ideas in a natural order</em></h3>
+
+<p>Set your ideas in an order that unfolds your line of thought most <em>clearly</em>. Often this can be done by:</p>
+
+<ol>
+<li>Identify the (overall) conclusion being expressed. What is the argument intended to get you to do or believe?</li>
+<li>Identify the reasons (premises) presented to get you to conclude as desired.</li>
+</ol>
+
+<hr>
+
+<h3 id="toc_6">Rule 3: <em>Start from reliable premises</em></h3>
+
+<p><em>No matter how well you argue from premises to conclusion, your conclusion will be weak if your premises are weak.</em>  If you cannot argue adequately from your premises, you need to find other premises.</p>
+
+<p>A good argument leads you (and/or others) from premises that you already accept to conclusions that you (and/or they) did not previously accept. The premises need to be believed and appreciated in context (acceptable) by both parties in an argument before any conclusion can be reached. These agreed upon premises act as a common ground upon which further arguments, ideas, and agreement can be built.</p>
+
+<p><em>Rules for deciding whether a premise is reliable and acceptable</em>:
+1. Widely accepted (as true) facts are usually reliable starting points, so it is important to really understand how widely accepted your facts/premises are.
+2. Premises that are supported by appropriate testimony or sources are usually reliable.
+3. Premises should never be generalizations or vague, they must be understandable (i.e., adequately precise).</p>
+
+<p>For more about reliable premises, see Chapter 4 (on using sources) and Rule 31.</p>
+
+<hr>
+
+<h3 id="toc_7">Rule 4: <em>Be concrete and concise</em></h3>
+
+<p>Phrase your points in brief, simple language avoiding abstractions and vague/general terms.</p>
+
+<hr>
+
+<h3 id="toc_8">Rule 5: <em>Build on substance, not overtone</em></h3>
+
+<p>Offer <em>actual reasons</em>; don&#39;t just play on the overtones of words. That is, don&#39;t use emotionally loaded words in an attempt to make the opposing point of view appear weak. This may make the argument seem like a manipulation attempt or just silly. Understanding the opposing points of view and addressing them directly will provide for a stronger argument.</p>
+
+<p>Take all emotion out of an argument and only focus on the premises and conclusion of an opposing view. A good argument should be able to stand on the strength of its plainly stated premises and the connection between the premises and the conclusion.</p>
+
+<p><em>When identifying problems with substance in other&#39;s arguments, make sure to express the specific reasons you believe this to be true as well as how they can be avoided in the argument. Then, use what is left as a basis for debate.</em></p>
+
+<hr>
+
+<h3 id="toc_9">Rule 6: <em>Use consistent terms</em></h3>
+
+<p>Using well-chosen terms consistently for each idea makes it easier to understand an argument since there is less for the reader to process. Using inconsistent terminology could cause the reader to get hung up on terminology and phrasing rather than the point being made. </p>
+
+<p><em>Avoid the temptation to use a thesaurus</em>. Instead, prefer to create the most concise argument possible.</p>
+
+<hr>
+
+<h3 id="toc_10">Chapter 1 Summary</h3>
+
+<p>Use the rules together to accomplish this consistency...</p>
+
+<ul>
+<li>Does the argument make clear what the conclusion of the argument is? (<strong>Rule 1</strong>)</li>
+<li>Does the argument present ideas in a natural order? (<strong>Rule 2</strong>)</li>
+<li>Are the premises reliable? (<strong>Rule 3</strong>)</li>
+<li>Could the argument be clearer or more concise? How? (<strong>Rule 4</strong>)</li>
+<li>Does the argument use loaded language? Where, and how can that be corrected? (<strong>Rule 5</strong>)</li>
+<li>Does the author confuse the argument by using more than one term for the same idea? What one term should be used instead? (<strong>Rule 6</strong>)</li>
+</ul>
+
+<p>Be as specific as possible in explaining the ways in which the argument does or does not follow each rule and what can be done to correct it.</p>
+
+<hr>
+
+<h2 id="toc_11">Chapter 2: Generalizations</h2>
+
+<p>Some arguments offer one or more examples in support of generalizations. These examples must be accurate to be reliable (see <strong>Rule 3</strong>). The rules in this chapter can be used as a sort of checklist for assessing arguments by example.</p>
+
+<p>When thinking about generalizations, it is helpful to ask two questions:</p>
+
+<ol>
+<li>What <em>type</em> of thing is the generalization about?</li>
+<li>What does the generalization <em>say</em> about the things of that <em>type</em>?</li>
+</ol>
+
+<p>A <em>negative</em> generalization is one which states that few or no things of a <em>type</em> are a certain way.</p>
+
+<hr>
+
+<h3 id="toc_12">Rule 7: <em>Use more than one example</em></h3>
+
+<p>The more examples used to support a premise, the better. In a generalization about a small set of things, the strongest argument should consider all, or at least many, examples. Generalizations about larger sets of things require selecting a <em>sample</em>.</p>
+
+<p>To give good examples in support of a generalization, you need to be sure that your examples are the right <em>type</em> of thing.</p>
+
+<hr>
+
+<h3 id="toc_13">Rule 8: <em>Use representative examples</em></h3>
+
+<p>Regardless of the quantity of examples used, they may misrepresent the set being generalized. Example:</p>
+
+<div><pre><code class="language-none">Everyone in my neighborhood likes sausage. Therefore everyone likes sausage.</code></pre></div>
+
+<p>&#39;Everyone&#39; is larger than just those in the neighborhood, so this is a weak argument.</p>
+
+<p>Any <strong>sample</strong> used to define a population (that is being generalized) must be representative of that group. A <strong>sample</strong> that fails to represent a group accurately is called a <em>biased sample</em>.</p>
+
+<p>The common way to ensure that a <strong>sample</strong> is representative of a group is to use a selection that is <em>random</em>. To create an adequate <strong>sample</strong>:</p>
+
+<ol>
+<li>Be sure that you are sampling from the <em>entire group</em> that you are making a generalization about! All instances of a population must have equal potential for being included in the <strong>sample</strong>. Where a population is not perfectly homogeneous, ensure that every member of the population is understood and proportionally likely be included in the sample. If this cannot be done, it is best to change the generalization.</li>
+<li>Do not allow opting out for any members of the population.</li>
+</ol>
+
+<hr>
+
+<h3 id="toc_14">Rule 9: <em>Background rates may be crucial</em></h3>
+
+<p>To evaluate the reliability of an argument featuring a few dramatic examples (ex: a horoscope that came true), we need to know the <em>ratio</em> between the number of &#39;hits&#39; and the number of tries. It is often good to consider background rates even when the argument does not obviously invoke any generalizations.</p>
+
+<hr>
+
+<h3 id="toc_15">Rule 10: <em>Statistics need a critical eye</em></h3>
+
+<p>When statistics are included in arguments, they need to be evaluated for meaning &amp; accuracy as they can be used to mislead. How the statistics were arrived to may change their impact or usefulness in context. For example, pollsters can choose to ask questions in a certain way to arrive at a certain statistical outcome. </p>
+
+<hr>
+
+<h3 id="toc_16">Rule 11: <em>Consider counterexamples</em></h3>
+
+<p>Counterexamples are examples that contradict your generalization. They can be used to make your conclusion more specific, and therefore more convincing, accurate, and useful. Additionally, considering counterexamples when assessing the arguments of others can enable you to identify faulty conclusions.</p>
+
+<p>The questions in the intro for this chapter above (under Chapter 2: Generalizations) are very helpful here. For example, if the generalization is about a bird, the counterexample must be a bird as well.</p>
+
+<hr>
+
+<h2 id="toc_17">Chapter 3: Arguments by Analogy</h2>
+
+<p>Arguing by analogy is done by comparing examples to show they are alike in some specific, relevant way that supports a generalization. The example given is comparing the human body to cars in that they both require periodic checkups to detect potential problems.</p>
+
+<hr>
+
+<h3 id="toc_18">Rule 12: <em>Analogies require relevantly similar examples</em></h3>
+
+<p>For the argument below to be successful, Earth and a house must be considered to be <em>similar enough in context by all parties</em>. The reason it may or may not work for certain individuals is the extent of knowledge had about the Earth is significantly less than what is known about a house.</p>
+
+<ul>
+<li>Beautiful and well-built houses must have &quot;makers&quot;: designers and builders.</li>
+<li>The world is <em>like</em> a beautiful and well-built house.</li>
+<li>Therefore, the world also must have a &quot;maker&quot;: a designer and builder, God.</li>
+</ul>
+
+<hr>
+
+<h2 id="toc_19">Chapter 4: Sources</h2>
+
+<p>No one can be an expert through direct experience on everything. Instead, we must rely on others who are better able to provide what we need to know about specific topics. Using an expert&#39;s point of view is not perfect, however. Everyone has biases, and experts can be overconfident. So, describing why expert is reliable is also important.</p>
+
+<h3 id="toc_20">Rule 13: <em>Cite your sources</em></h3>
+
+<p>Especially when making a claim that is not widely accepted, the source of a premise is needed. Making bold claims without a reputable source will not help convince many people that your conclusion is correct.</p>
+
+<hr>
+
+<h3 id="toc_21">Rule 14: <em>Seek informed sources</em></h3>
+
+<p>A source&#39;s qualifications matter. Sources who do not have apparent expertise in the field of interest are not likely to be taken seriously. Honda mechanics are likely to be considered reliable when speaking about fixing Honda cars but not when expressing ideas about vitamins.</p>
+
+<p>Typically, one will want to find a representative sample of authorities to use where possible.</p>
+
+<p>Also, truly informed sources rarely expect others to accept their conclusions simply because they assert them. Most good sources will offer at least some reasons or evidence to explain their conclusions.</p>
+
+<hr>
+
+<h3 id="toc_22">Rule 15: <em>Seek impartial sources</em></h3>
+
+<p>People who have the most at stake in a dispute are usually not the best sources of information about the issues involved. The truth as one honestly sees it can still be biased. Also, be wary of personal bias or potential gain that can color the information provided by sources.</p>
+
+<hr>
+
+<h3 id="toc_23">Rule 16: <em>Cross-check sources</em></h3>
+
+<p>Consult and compare a variety of sources to see of other, equally good authorities agree.  Where even the experts disagree, reserve judgement. Instead, see if you can argue on other grounds.</p>
+
+<p>When using multiple sources, it is important that they are <em>independent</em> of each other.</p>
+
+<hr>
+
+<h3 id="toc_24">Rule 17: <em>Use the Web with care</em></h3>
+
+<p>Only rely on Web sources if they are identifiable and independently reputable sources. Search engines only index about 10 to 20 percent of the available Web due to how crawling is done. This leads search engines to supply results showing primarily things that have been marketed. Most commonly, results that are useful are academic resources and databases. If you really need to know something, dig deeper than a standard Web search.</p>
+
+<p>Consider:
+- Who created this site?
+- Why did they create it?
+- What are their qualifications?
+- What does it mean if they don&#39;t tell you?
+- How can you double-check and cross-check its claims?</p>
+
+<hr>
+
+<h2 id="toc_25">Chapter 5: Arguments about Causes</h2>
+
+<p>Reasoning about causes takes care and critical thinking.</p>
+
+<hr>
+
+<h3 id="toc_26">Rule 18: <em>Causal arguments start with correlations</em></h3>
+
+<p>The evidence for a claim about causes is usually a correlation - a regular association - between two events or kinds of events. Example: Where you sit in a classroom and your grade in that class.</p>
+
+<p>The general form of the argument is like:</p>
+
+<ul>
+<li>People who meditate tend to be calmer.</li>
+<li>Therefore, meditation calms you down.</li>
+</ul>
+
+<p>Another example:</p>
+
+<ul>
+<li>Shows on television portray more and more violence, callousness, and depravity - and society is becoming more and more violent, callous, and depraved.</li>
+<li>Therefore, television is ruining our morals.</li>
+</ul>
+
+<hr>
+
+<h3 id="toc_27">Rule 19: <em>Correlations may have alternate explanations</em></h3>
+
+<p>Though arguments from correlation to cause may often be compelling, there can be systematic difficulty with any such claim because <em>any correlation may be explained in multiple ways</em>.</p>
+
+<p>Some correlations may simply be <em>coincidental</em>. For example, while it is true that the universe is expanding and gasoline prices are going up, but there is no causal relationship between them.</p>
+
+<p>Also, even when there is a connection, correlation by itself does not establish the <em>direction</em> of the connection. If E<em>1 is correlated with E</em>2, which causes the other?  For example, the correlation &quot;people with a can-do attitude tend to be wealthier&quot; does not help one to understand which leads to the other, or if one of them does lead to the other.</p>
+
+<hr>
+
+<h3 id="toc_28">Rule 20: <em>Work towards the most likely explanation</em></h3>
+
+<p>Since a variety of explanations for a correlation are usually possible, the challenge for a good correlation-based argument is to find the <em>most likely</em> explanation. To do this, first describe how each possible explanation could make sense or not make sense.
+- Consider other ways to look at or other explanations for each correlation. 
+- Consider if there is more evidence that needs to be found to assess.
+- Consider if the correlation is coincidence - the likelihood can sometimes be calculated.</p>
+
+<hr>
+
+<h3 id="toc_29">Rule 21: <em>Expect complexity</em></h3>
+
+<p>Often, causes are related to many factors, many correlates. One must consider the <em>relative weight</em> of each factor on the outcome. If an argument seems to suggest that it has explained the <em>entire</em> cause of some effect, be suspicious that it is ignoring complexity.</p>
+
+<p>Also, consider that some causal relationships are loops. For example, reading leads to open mindedness and open mindedness leads to reading.</p>
+
+<p>There are two main ways for an argument to establish a correlation:
+1. Citing sources that establish the correlation.
+2. The argument itself is convincing. This requires assessing all likely potential alternative explanations.</p>
+
+<hr>
+
+<h2 id="toc_30">Chapter 6: Deductive Arguments</h2>
+
+<p>words</p>
+
+<hr>
+
+<h3 id="toc_31">Rule 22: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_32">Rule 23: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_33">Rule 24: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_34">Rule 25: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_35">Rule 26: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_36">Rule 27: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_37">Rule 28: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h2 id="toc_38">Chapter 7: Extended Arguments</h2>
+
+<p>words</p>
+
+<hr>
+
+<h3 id="toc_39">Rule 29: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_40">Rule 30: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_41">Rule 31: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_42">Rule 32: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_43">Rule 33: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h2 id="toc_44">Chapter 8: Argumentative Essays</h2>
+
+<p>words</p>
+
+<hr>
+
+<h3 id="toc_45">Rule 34: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_46">Rule 35: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_47">Rule 36: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_48">Rule 37: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_49">Rule 38: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_50">Rule 39: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h2 id="toc_51">Chapter 9: Oral Arguments</h2>
+
+<p>words</p>
+
+<hr>
+
+<h3 id="toc_52">Rule 40: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_53">Rule 41: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_54">Rule 42: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_55">Rule 43: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_56">Rule 44: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h3 id="toc_57">Rule 45: __</h3>
+
+<p>?</p>
+
+<hr>
+
+<h2 id="toc_58">Appendix 1: Some Common Fallacies</h2>
+
+<h2 id="toc_59">Appendix 2: Definitions</h2>
+
+<h2 id="toc_60">Appendix 3: Argument Mapping</h2>
+
+
+
+
+</body>
+
+</html>

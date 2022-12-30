@@ -1,7 +1,5 @@
 # Book Notes
 
----
-
 Notes for __Part__ 1 of _A Workbook for Arguments: A Complete Course in Critical Thinking_, 2nd edition by David R. Morrow and Anthony Weston.  Answers for these exercises are in __Part 2__ of the text.
 
 The webpage for this book (currently 3rd addition) can be found [here](https://hackettpublishing.com/workbookforarguments/).
@@ -9,6 +7,8 @@ The webpage for this book (currently 3rd addition) can be found [here](https://h
 ---
 
 ## Chapter 1: Short Arguments: Some General Rules
+
+Arguments begin by marshaling reasons and organizing them in a clear and fair way.
 
 ---
 
@@ -225,39 +225,227 @@ Consider:
 
 ## Chapter 5: Arguments about Causes
 
-words
+Reasoning about causes takes care and critical thinking.
 
-### Rule 18: _?_
+---
 
-?
+### Rule 18: _Causal arguments start with correlations_
+
+The evidence for a claim about causes is usually a correlation - a regular association - between two events or kinds of events. Example: Where you sit in a classroom and your grade in that class.
+
+The general form of the argument is like:
+
+- People who meditate tend to be calmer.
+- Therefore, meditation calms you down.
+
+Another example:
+
+- Shows on television portray more and more violence, callousness, and depravity - and society is becoming more and more violent, callous, and depraved.
+- Therefore, television is ruining our morals.
+
+---
+
+### Rule 19: _Correlations may have alternate explanations_
+
+Though arguments from correlation to cause may often be compelling, there can be systematic difficulty with any such claim because _any correlation may be explained in multiple ways_.
+
+Some correlations may simply be _coincidental_. For example, while it is true that the universe is expanding and gasoline prices are going up, but there is no causal relationship between them.
+
+Also, even when there is a connection, correlation by itself does not establish the _direction_ of the connection. If E_1 is correlated with E_2, which causes the other?  For example, the correlation "people with a can-do attitude tend to be wealthier" does not help one to understand which leads to the other, or if one of them does lead to the other.
+
+---
+
+### Rule 20: _Work towards the most likely explanation_
+
+Since a variety of explanations for a correlation are usually possible, the challenge for a good correlation-based argument is to find the _most likely_ explanation. To do this, first describe how each possible explanation could make sense or not make sense.
+- Consider other ways to look at or other explanations for each correlation. 
+- Consider if there is more evidence that needs to be found to assess.
+- Consider if the correlation is coincidence - the likelihood can sometimes be calculated.
+
+---
+
+### Rule 21: _Expect complexity_
+
+Often, causes are related to many factors, many correlates. One must consider the _relative weight_ of each factor on the outcome. If an argument seems to suggest that it has explained the _entire_ cause of some effect, be suspicious that it is ignoring complexity.
+
+Also, consider that some causal relationships are loops. For example, reading leads to open mindedness and open mindedness leads to reading.
+
+There are two main ways for an argument to establish a correlation:
+1. Citing sources that establish the correlation.
+2. The argument itself is convincing. This requires assessing all likely potential alternative explanations.
+
+---
 
 ## Chapter 6: Deductive Arguments
 
+words
+
+---
+
+### Rule 22: __
+
+?
+
+---
+
+### Rule 23: __
+
+?
+
+---
+
+### Rule 24: __
+
+?
+
+---
+
+### Rule 25: __
+
+?
+
+---
+
+### Rule 26: __
+
+?
+
+---
+
+### Rule 27: __
+
+?
+
+---
+
+### Rule 28: __
+
+?
+
+---
+
 ## Chapter 7: Extended Arguments
+
+words
+
+---
+
+### Rule 29: __
+
+?
+
+---
+
+### Rule 30: __
+
+?
+
+---
+
+### Rule 31: __
+
+?
+
+---
+
+### Rule 32: __
+
+?
+
+---
+
+### Rule 33: __
+
+?
+
+---
 
 ## Chapter 8: Argumentative Essays
 
+words
+
+---
+
+### Rule 34: __
+
+?
+
+---
+
+### Rule 35: __
+
+?
+
+---
+
+### Rule 36: __
+
+?
+
+---
+
+### Rule 37: __
+
+?
+
+---
+
+### Rule 38: __
+
+?
+
+---
+
+### Rule 39: __
+
+?
+
+---
+
 ## Chapter 9: Oral Arguments
+
+words
+
+---
+
+### Rule 40: __
+
+?
+
+---
+
+### Rule 41: __
+
+?
+
+---
+
+### Rule 42: __
+
+?
+
+---
+
+### Rule 43: __
+
+?
+
+---
+
+### Rule 44: __
+
+?
+
+---
+
+### Rule 45: __
+
+?
+
+---
 
 ## Appendix 1: Some Common Fallacies
 
 ## Appendix 2: Definitions
 
 ## Appendix 3: Argument Mapping
-
-
-
-##### TEMPLATES
-
-================= RULES
-
----
-
-### Rule #: __
-
-?
-
----
-
-================= /RULES
-
