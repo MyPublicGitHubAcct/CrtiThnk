@@ -214,11 +214,11 @@ When using multiple sources, it is important that they are _independent_ of each
 
 Only rely on Web sources if they are identifiable and independently reputable sources. Search engines only index about 10 to 20 percent of the available Web due to how crawling is done. This leads search engines to supply results showing primarily things that have been marketed. Most commonly, results that are useful are academic resources and databases. If you really need to know something, dig deeper than a standard Web search.
 
-Consider:
-- Who created this site?
-- Why did they create it?
-- What are their qualifications?
-- What does it mean if they don't tell you?
+Consider:  
+- Who created this site?  
+- Why did they create it?  
+- What are their qualifications?  
+- What does it mean if they don't tell you?  
 - How can you double-check and cross-check its claims?
 
 ---
@@ -257,9 +257,9 @@ Also, even when there is a connection, correlation by itself does not establish 
 
 ### Rule 20: _Work towards the most likely explanation_
 
-Since a variety of explanations for a correlation are usually possible, the challenge for a good correlation-based argument is to find the _most likely_ explanation. To do this, first describe how each possible explanation could make sense or not make sense.
-- Consider other ways to look at or other explanations for each correlation. 
-- Consider if there is more evidence that needs to be found to assess.
+Since a variety of explanations for a correlation are usually possible, the challenge for a good correlation-based argument is to find the _most likely_ explanation. To do this, first describe how each possible explanation could make sense or not make sense.  
+- Consider other ways to look at or other explanations for each correlation.   
+- Consider if there is more evidence that needs to be found to assess.  
 - Consider if the correlation is coincidence - the likelihood can sometimes be calculated.
 
 ---
@@ -270,45 +270,120 @@ Often, causes are related to many factors, many correlates. One must consider th
 
 Also, consider that some causal relationships are loops. For example, reading leads to open mindedness and open mindedness leads to reading.
 
-There are two main ways for an argument to establish a correlation:
-1. Citing sources that establish the correlation.
+There are two main ways for an argument to establish a correlation:  
+1. Citing sources that establish the correlation.  
 2. The argument itself is convincing. This requires assessing all likely potential alternative explanations.
 
 ---
 
 ## Chapter 6: Deductive Arguments
 
-words
+A _deductive argument_ is of such a form that, if its premises are true, the conclusion must also be true. Properly deductive arguments are called _valid_ arguments. In non-deductive arguments, the conclusion unavoidably goes beyond the premises - that the very point of arguing by example, authority, and so on - whereas the conclusion of a valid deductive argument only makes explicit what is already contained in the premises. Even when premises are uncertain, deductive forms offer an effective way to organize arguments.
 
 ---
 
-### Rule 22: __
+### Rule 22: _Modus ponens_
 
-?
+_Modus ponens_ means "the mode of putting": _put_ __p__, _get_ __q__. To develop this kind of argument, you must explain and defend both of its premises. _Modus ponens_ gives you a way to lay them out clearly and separately from the start.
 
----
+The simplest valid form is:
 
-### Rule 23: __
+If __p__ then __q__.  
+__p__.  
+Therefore, __q__.
 
-?
+This may look like:
 
----
+    If drivers on cell phones have more accidents, then drivers should be prohibited from using them.
 
-### Rule 24: __
+    Drivers on cell phones do have more accidents.
 
-?
-
----
-
-### Rule 25: __
-
-?
+    Therefore, drivers should be prohibited from using cell phones.
 
 ---
 
-### Rule 26: __
+### Rule 23: _Modus tollens_
 
-?
+_Modus tollens_ means "the mode of taking": _take_ __q__, _take_ __p__. 
+
+The simplest valid form is:
+
+If __p__ then __q__.  
+Not-__q__.  
+Therefore, not-__p__.
+
+This may look like:
+
+    If the visitor was a stranger, then the dog would have barked.
+
+    The dog did not bark.
+
+    Therefore, the visitor was not a stranger.
+
+---
+
+Care should be taken to avoid confusing _modus ponens_ and _modus tollens_ with "affirming the consequent" and "denying the antecedent". See Appendix 1: Some Common Fallacies, page 249 for an example.
+
+### Rule 24: _Hypothetical syllogism_
+
+A third valid deductive form, _hypothetical syllogisms_ are valid for any number of premises as long and each has the form "if __p__ then __q__" and __q__ (a.k.a. the consequent) of one premise becomes the __p__ (a.k.a. the antecedent) of the next.
+
+The simplest valid form is:
+
+If __p__ then __q__.  
+If __q__ then __r__.   
+Therefore, if __p__ then __r__.
+
+This may look like:
+
+    If you study other cultures, then you start to realize the variety of human customs.
+
+    If you start to realize the variety of human customs, then become more tolerant.
+
+    Therefore, if you study other cultures, then you become mroe tolerant.
+
+---
+
+### Rule 25: _Disjunctive syllogism_
+
+A fourth valid deductive form, _disjunctive syllogisms_ are valid regardless of which sense of "or" (i.e., inclusive or exclusive) is used. But what _else_, if anything, you may be able to infer from a statement like "__p__ or __q__" - in particular, whether you can conclude not-__q__ if you also know __p__ depends on the meaning of "or" in the specific "__p__ or __q__" premise you are considering.
+
+The simplest valid form is:
+
+__p__ or __q__.  
+Not-__p__.   
+Therefore, __q__.
+
+This may look like:
+
+    Either we hope for progress by improving morals, or we hope for progress by improving intelligence.
+
+    We can't hope for progress by improving morals.
+
+    Therefore, we must hope for progress by improving intelligence.
+
+---
+
+### Rule 26: _Dilemma_
+
+Rhetorically, a "dilemma" is a choice between two options both of which have unappealing consequences.
+
+The simplest valid form is:
+
+__p__ or __q__.  
+If __p__ then __r__.  
+If __q__ then __s__.  
+Therefore, __r__ or __s__.
+
+This may look like:
+
+    Either we become close to others or we stand apart.
+
+    If we become close to others, we suffer conflict and pain.
+
+    If we stand apart, we'll be lonely.
+
+    Therefore, either we suffer conflict and pain or we'll be lonely.
 
 ---
 
