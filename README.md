@@ -288,9 +288,9 @@ _Modus ponens_ means "the mode of putting": _put_ __p__, _get_ __q__. To develop
 
 The simplest valid form is:
 
-If __p__ then __q__.  
-__p__.  
-Therefore, __q__.
+- If __p__ then __q__.  
+- __p__.  
+- Therefore, __q__.
 
 This may look like:
 
@@ -308,9 +308,9 @@ _Modus tollens_ means "the mode of taking": _take_ __q__, _take_ __p__.
 
 The simplest valid form is:
 
-If __p__ then __q__.  
-Not-__q__.  
-Therefore, not-__p__.
+- If __p__ then __q__.  
+- Not-__q__.  
+- Therefore, not-__p__.
 
 This may look like:
 
@@ -330,9 +330,9 @@ A third valid deductive form, _hypothetical syllogisms_ are valid for any number
 
 The simplest valid form is:
 
-If __p__ then __q__.  
-If __q__ then __r__.   
-Therefore, if __p__ then __r__.
+- If __p__ then __q__.  
+- If __q__ then __r__.   
+- Therefore, if __p__ then __r__.
 
 This may look like:
 
@@ -350,9 +350,9 @@ A fourth valid deductive form, _disjunctive syllogisms_ are valid regardless of 
 
 The simplest valid form is:
 
-__p__ or __q__.  
-Not-__p__.   
-Therefore, __q__.
+- __p__ or __q__.  
+- Not-__p__.   
+- Therefore, __q__.
 
 This may look like:
 
@@ -370,32 +370,53 @@ Rhetorically, a "dilemma" is a choice between two options both of which have una
 
 The simplest valid form is:
 
-__p__ or __q__.  
-If __p__ then __r__.  
-If __q__ then __s__.  
-Therefore, __r__ or __s__.
+- __p__ or __q__.  
+- If __p__ then __r__.  
+- If __q__ then __s__.  
+- Therefore, __r__ or __s__.
 
 This may look like:
 
-    Either we become close to others or we stand apart.
+    Either we become close to others (p) or we stand apart (q).
 
-    If we become close to others, we suffer conflict and pain.
+    If we become close to others (p), we suffer conflict and pain (r).
 
-    If we stand apart, we'll be lonely.
+    If we stand apart (q), we'll be lonely (s).
 
-    Therefore, either we suffer conflict and pain or we'll be lonely.
+    Therefore, either we suffer conflict and pain (r) or we'll be lonely (s).
+
+It is easier to recognize which rule a deductive argument uses if you use letters to abbreviate the different parts of the argument, as shown above.
+
+How do you figure out which parts?
+
+1. Look for uses of "if", "and", and "or". When these are used to connect independent ideas, they are called "logical connectives". When found, these should be _circled_ and the independent clauses it connects should be _underlined_.  
+2. Assign letters (typically __p___ and __q__) to each clause.  
+3. Once all the logical connectives have been found, underlined, and lettered, see if any of them appear elsewhere in the argument. Where they do, underline and letter them with the same letters as done earlier.  
+4. Check for sentences that say the _opposite_ of one of the clauses. Where found, put "not-" in front of the letter for that clause.  
+5. Where two phrases express the same idea, use the same letter even if the phrases are worded differently.  
+6. Compare the symbolized version against the Deductive forms presented earlier.
 
 ---
 
-### Rule 27: __
+### Rule 27: _Reductio ad absurdum_
 
-?
+"Reduction to absurdity", or _indirect proof_ is a special version of _modus tollens_. These arguments establish their conclusions by showing that assuming the opposite leads to absurdity: a silly or contradictory result. The pattern is:  
+
+- To prove: __p__.  
+- Assume the opposite: ___not-p__.  
+- Argue that, from the assumption we would have to conclude __q__.  
+- Show that __q__ is false (i.e., contradictory, absurd, unacceptable).  
+- Conclude that __p__ must be true after all. 
+
+The differences between _modus tollens_ and _reductio ad absurdum_:
+- _reductio ad absurdum_ involves a claim that is not just false, but absurd or ridiculous, whereas _modus tollens_ only involves a claim that is false.  
+- _modus tollens_ simply asserts that __p__ leads to __q__. In a _reductio ad absurdum_, you will often find a lengthy argument showing that __p__ leads to __q__.
 
 ---
 
-### Rule 28: __
+### Rule 28: _Deductive arguments in several steps_
 
-?
+Many valid deductive arguments are combinations of the basic forms introduced in Rules 22-17. 
 
 ---
 
