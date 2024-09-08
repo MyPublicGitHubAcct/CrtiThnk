@@ -72,6 +72,38 @@ This will help you see the fault lines in someone's argument.
 
 There are more emotionally effective methods of persuasion (agreeing with people, feel felt found, etc.) but the above should help with the logical side of things.
 
+### six
+Steps:
+
+1. Establish an argument.
+2. Raise an exception or contradiction.
+3. Re-forumulate the argument.
+4. Repeat steps 2 & 3.
+5. Arrive at aporia (a state of puzzlement).
+
+Futher, the arguments (i.e., conclusions) are based on premises (facts) & those premises result in a hypothesis. The conclusion is based on the hypothesis assuming the debaters agree on the premises.
+
+#### Example 1
+
+Claim: Plato drinks beer.
+
+(P1) All philosophers drink beer.
+
+(P2) Plato is a philosopher.
+
+(C) Therefore, Plato drinks beer.
+
+#### Example 2
+
+Claim: Dogs are better pets than cats.
+
+(P1) Dogs are generally more affectionate than cats and
+
+(P2) Dogs are more responsive to their owners’ commands than cats.
+
+From my two premises, I infer my conclusion that
+(C) Dogs are better pets than cats.
+
 
 ## [name](https://?)
 
